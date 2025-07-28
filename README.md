@@ -51,19 +51,19 @@ secure-aes-file-encryptor/
    cd secure-aes-file-encryptor
 Create a virtual environment (optional but recommended)
 
-```bash
+
 python -m venv venv
 source venv/bin/activate
  # On Windows: venv\Scripts\activate
 Install dependencies
 
-```bash
+
 pip install -r requirements.txt
 Run the app
 
-```bash
+
 python app.py
 Open your browser
 
-```bash
+
 http://localhost:5000

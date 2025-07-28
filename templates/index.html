@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure File Encryptor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #D8BFD8;
+            text-align: center;
+            margin: 50px;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 50%;
+            margin: auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        input[type="file"], button {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+        }
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🔐 Secure File Encryption Tool</h2>
+        <form method="post" action="/encrypt" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">Encrypt File</button>
+        </form>
+        <form method="post" action="/decrypt" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">Decrypt File</button>
+        </form>
+    </div>
+</body>
+</html>
 

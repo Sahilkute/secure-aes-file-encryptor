@@ -51,26 +51,19 @@ secure-aes-file-encryptor/
    cd secure-aes-file-encryptor
 Create a virtual environment (optional but recommended)
 
-bash
-Copy
-Edit
+```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
+ # On Windows: venv\Scripts\activate
 Install dependencies
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
 Run the app
 
-bash
-Copy
-Edit
+```bash
 python app.py
 Open your browser
 
-arduino
-Copy
-Edit
+```bash
 http://localhost:5000

@@ -59,11 +59,11 @@ Install dependencies
 
 
 pip install -r requirements.txt
-Run the app
+-Run the app
 
 
 python app.py
-Open your browser
+-Open your browser
 
 
 http://localhost:5000

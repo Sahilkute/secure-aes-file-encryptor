@@ -31,4 +31,46 @@ A simple and secure file encryption and decryption web application built with **
 
 ## 📁 Folder Structure
 
-# secure-aes-file-encryptor
+secure-aes-file-encryptor/
+│
+├── app.py # Main Flask app
+├── app_utils.py # AES encryption/decryption logic
+├── requirements.txt
+│
+├── templates/
+│ └── index.html # User interface (UI)
+├── static/
+│ └── (optional CSS/images)
+
+
+## ▶️ How to Run Locally
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/Sahilkute/secure-aes-file-encryptor.git
+   cd secure-aes-file-encryptor
+Create a virtual environment (optional but recommended)
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install dependencies
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Run the app
+
+bash
+Copy
+Edit
+python app.py
+Open your browser
+
+arduino
+Copy
+Edit
+http://localhost:5000
